@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #ffa500;
+  border: 2px solid red;
+}
+.header{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 40px;
+  border: 1px solid white;
+}
+.header> h1{
+  margin-bottom: 20px;
+}
+
+.apis{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
